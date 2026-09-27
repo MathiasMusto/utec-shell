@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Best School" > "$(printf '%s' '\\\""Best School"'\''\\\$?\*\*\*\*\*:')"
+echo "Best School" > "$(printf '\\""Best School\047\\$?*****:')"
